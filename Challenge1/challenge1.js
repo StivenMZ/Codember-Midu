@@ -2,7 +2,7 @@ function worder (string) {
     let wordsArray = string.toLowerCase().split(" ");
     let result = [];
     for( element of wordsArray){
-        if(!result.includes(element)){
+        if(!result.includegs(element)){
             result.push(element);
             result.push(1);
         }else{
